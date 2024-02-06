@@ -61,8 +61,8 @@ public class Runner {
         trolley.addItem("a smaller secret trolley");
 
         // 3. Count items in the trolley
-//        int itemCount = <CALL YOUR METHOD HERE>;
-//        System.out.println("The trolley contains " + itemCount + " items.");
+        int itemCount = trolley.countItems();
+        System.out.println("The trolley contains " + itemCount + " item(s).");
 
         // 4. Check if an item is in the trolley
 //        boolean itemInTrolley = <CALL YOUR METHOD HERE>;
