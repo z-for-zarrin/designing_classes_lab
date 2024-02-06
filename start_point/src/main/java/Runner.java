@@ -27,7 +27,7 @@ public class Runner {
         System.out.println("Running computer tasks...");
 
         // 1. Create a new computer object
-//        Computer computer = <INSTANTIATE A NEW COMPUTER OBJECT HERE>
+        Computer computer = new Computer(2048);
 
         // 2. Use a getter to find out how much storage the computer has
 //        int currentStorage = <CALL YOUR METHOD HERE>;
