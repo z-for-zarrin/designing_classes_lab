@@ -58,7 +58,7 @@ public class Runner {
         ShoppingTrolley trolley = new ShoppingTrolley();
 
         // 2. Add an item to the trolley
-//        <CALL YOUR METHOD HERE>;
+        trolley.addItem("a smaller secret trolley");
 
         // 3. Count items in the trolley
 //        int itemCount = <CALL YOUR METHOD HERE>;
