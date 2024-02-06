@@ -11,7 +11,7 @@ public class Runner {
         System.out.println("Running rectangle tasks...");
 
         // 1. Create a new rectangle object
-//        Rectangle rectangle = <INSTANTIATE A NEW RECTANGLE OBJECT HERE>
+        Rectangle rectangle = new Rectangle(8,8);
 
         // 2. Calculate the rectangle's area and store it in a variable
 //        int area = <CALL YOUR METHOD HERE>;
