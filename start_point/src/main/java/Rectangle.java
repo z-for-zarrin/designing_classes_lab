@@ -9,9 +9,9 @@ public class Rectangle {
         this.length = length;
     }
 
-//    public int calculateArea() {
-//        return this.length * this.width;
-//    }
+    public int calculateArea() {
+        return this.length * this.width;
+    }
 
 //    public boolean isSquare() {
 //        return this.length == this.width;

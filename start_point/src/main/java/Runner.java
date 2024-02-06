@@ -14,8 +14,8 @@ public class Runner {
         Rectangle rectangle = new Rectangle(8,8);
 
         // 2. Calculate the rectangle's area and store it in a variable
-//        int area = <CALL YOUR METHOD HERE>;
-//        System.out.println("The rectangle has an area of " + area);
+        int area = rectangle.calculateArea();
+        System.out.println("The rectangle has an area of " + area);
 
         // 3. Check if your rectangle is actually a square
 //        boolean isRectangle = <CALL YOUR METHOD HERE>
