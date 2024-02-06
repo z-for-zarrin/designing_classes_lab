@@ -13,7 +13,7 @@ public class Rectangle {
         return this.length * this.width;
     }
 
-//    public boolean isSquare() {
-//        return this.length == this.width;
-//    }
+    public boolean isSquare() {
+        return this.length == this.width;
+    }
 }

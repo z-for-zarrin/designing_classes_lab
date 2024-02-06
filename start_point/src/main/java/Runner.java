@@ -18,8 +18,8 @@ public class Runner {
         System.out.println("The rectangle has an area of " + area);
 
         // 3. Check if your rectangle is actually a square
-//        boolean isRectangle = <CALL YOUR METHOD HERE>
-//        System.out.println("Object is a square (true/false): " + isRectangle);
+        boolean isSquare = rectangle.isSquare();
+        System.out.println("Object is a square (true/false): " + isSquare);
     }
 
     public static void computerDemo(){
