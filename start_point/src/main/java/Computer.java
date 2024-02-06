@@ -28,4 +28,10 @@ public class Computer {
     public void addStorage(int addAmount) {
         this.storage += addAmount;
     }
+
+    public void printMessage(String message) {
+        if(this.printerModel != "") {
+            System.out.println(message);
+        }
+    }
 }
