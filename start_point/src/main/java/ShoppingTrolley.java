@@ -15,4 +15,8 @@ public class ShoppingTrolley {
     public int countItems() {
         return this.items.size();
     }
+
+    public boolean isInTrolley(String item) {
+        return  this.items.contains(item);
+    }
 }
