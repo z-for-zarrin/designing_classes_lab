@@ -24,4 +24,8 @@ public class Computer {
     public void setPrinterModel(String printerModel) {
         this.printerModel = printerModel;
     }
+
+    public void addStorage(int addAmount) {
+        this.storage += addAmount;
+    }
 }
