@@ -9,5 +9,19 @@ public class Computer {
         this.printerModel = "";
     }
 
+    public int getStorage() {
+        return storage;
+    }
 
+    public void setStorage(int storage) {
+        this.storage = storage;
+    }
+
+    public String getPrinterModel() {
+        return printerModel;
+    }
+
+    public void setPrinterModel(String printerModel) {
+        this.printerModel = printerModel;
+    }
 }
